@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title 1st python page</title>
+
+</head>
+<body>
+<ol>
+    {% for item in pup_dictionary %}
+    <li> {{item}} </li>
+    {% endfor %}
+    {% if 'rufus' in pup_dictionary %}
+        <p> true </p>
+    {% else %}
+        <p> false </p>
+    {% endif %}
+</ol>
+</body>
+</html>
