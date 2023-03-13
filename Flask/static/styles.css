@@ -1,0 +1,12 @@
+h1
+{
+	text-align:center;
+	background-color:IndianRed;
+	padding:25px;
+	font-family:cursive;
+}
+
+p{color:cyan;text-align:center;font-size:20px;font-family:cursive;}
+a:link{color:red;text-decoration:none;padding:10px}
+a:hover{background-color:black;padding:15px}
+body{background-color:black;}
