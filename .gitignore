@@ -30,3 +30,6 @@ Classes/Strage
 Classes/flashcards
 
 *.pyc
+
+# Local SQLite databases created by the Flask exercises
+*.sqlite
